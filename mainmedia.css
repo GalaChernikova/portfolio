@@ -1,0 +1,90 @@
+@media (max-width: 1400px) {
+    .about-list {
+        padding: 50px 0;
+        max-width: 930px;
+    }
+}
+
+@media (max-width: 950px) {
+    .nav-list li {
+        padding: 30px;
+    }
+
+    .intro {
+        flex-direction: column;
+    }
+
+    .intro a {
+        padding-top: 40px;
+    }
+
+    .about-list {
+        flex-direction: column;
+        max-width: 500px;
+    }
+
+    .about-list .edu,
+    .about-list .skills {
+        margin-left: 20px;
+        margin-bottom: 30px;
+    }
+
+    .about-list .exp {
+        margin-left: 20px;
+    }
+
+    h4 {
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .intro-text {
+        max-width: 400px;
+    }
+
+    .about-list {
+        max-width: 300px;
+    }
+
+    .about-list .edu,
+    .about-list .skills,
+    .about-list .exp {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .nav-list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .nav-list li {
+        padding: 10px;
+    }
+
+    .intro-text {
+        max-width: 300px;
+    }
+
+    .intro-text h2 {
+        font-size: 22px;
+    }
+
+    .intro a {
+        max-width: 300px;
+        text-align: center;
+    }
+
+    .preview-list img {
+        max-width: 300px;
+        margin: 20px 5px;
+    }
+
+
+    .contacts {
+        max-width: 280px;
+    }
+}

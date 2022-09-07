@@ -1,0 +1,27 @@
+.nav-list li a:hover {
+    font-size: 22px;
+    transition: all 0.5s ease-out;
+}
+
+.intro a:hover {
+    font-size: 26px;
+    transition: all 0.5s ease-out;
+}
+
+.preview-list li:hover {
+    margin: 20px;
+    transition: all 0.5s ease-out;
+}
+
+.about-list .edu ul li:hover,
+.about-list .skills ul li:hover,
+.about-list .exp ul li:hover {
+    font-size: 20px;
+    transition: all 0.5s ease-out;
+}
+
+.contacts address:hover,
+.contacts p:hover {
+    font-size: 24px;
+    transition: all 0.5s ease-out;
+}
