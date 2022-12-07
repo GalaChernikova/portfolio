@@ -104,8 +104,17 @@ li {
     color: #000000;
 }
 
+.prev-nav-list {
+    margin-top: 30px;
+}
 
+.prev-nav-list li:not(:last-child) {
+    margin-bottom: 20px;
+}
 
+.prev-nav-list li {
+    list-style-type: disclosure-open;
+}
 
 /* preview */
 .preview {
